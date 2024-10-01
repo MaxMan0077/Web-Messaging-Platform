@@ -39,7 +39,6 @@ let lastSender = '';
     document.addEventListener('DOMContentLoaded', () => {
         // Move other event listeners inside the DOMContentLoaded event listener
         document.getElementById('sendMessageForm').addEventListener('submit', function (e) {
-          // ... (rest of the code)
         });
       
         document.getElementById('settingsButton').addEventListener('click', function () { 
